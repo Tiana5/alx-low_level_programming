@@ -6,9 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
- *
  * Description: 'Display last digit of the number'
- *
  * Return: Always o
  */
 int main(void)
@@ -25,5 +23,6 @@ int main(void)
 	else if (o == 0)
 		printf("Last digit %d is %d and is 0\n", n, o);
 	else if (o < 6 && o != 0)
+		printf("Last digit %d is %d and is less than 6 and not 0\n", n, o);
 	return (0);
 }
