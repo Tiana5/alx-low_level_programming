@@ -4,15 +4,12 @@
  *
  * Return: 0
  */
+
 int main(void)
-{       int t = 97;
-
-	while (t >= 122)
-
-			putchar(t);
-		t++;
-	putchar("\n")
+{
+	char i;
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
-
-
