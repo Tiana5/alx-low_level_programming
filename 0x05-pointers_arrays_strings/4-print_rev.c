@@ -13,5 +13,5 @@ void print_rev(char *s)
 		c++;
 	for (t = c ; t >= 0 ; t--)
 		_putchar(s[t]);
-	_putchar('\n')
+	_putchar('\n');
 }
